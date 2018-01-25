@@ -29,22 +29,21 @@ function waterWalls(array) {
   for (var l = 0; l < array.length; l++) {
     for (var m = l + 1; m < array.length; m++) {
       if (array[m] > array[l]) {
-        console.log('water!!!!!!', water)
         var sum = water.slice(l, m).reduce((sum, wall) => sum += wall, 0)
         console.log('sum', sum)
-        valleys.push([m, l, sum])
+        valleys.push([l, m, sum])
       }
     }
   }
 
   for (var n = 0; n < valleys.length; n++) {
-    if (valleys[n][2] > output[2]) {
+    if (valleys[n][2] >= output[2]) {
       output = valleys[n];
     }
   }
   console.log('water: ', water)
   console.log('valleys: ', valleys)
-  return output;
+  return [output[0] + 2, output[1] + 1, output[2]];
 }
 
 waterWalls([5, 3, 7, 2, 6, 4, 5, 9, 1, 2])
