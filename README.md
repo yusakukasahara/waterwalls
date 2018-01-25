@@ -28,7 +28,7 @@ Iterate through all walls, and for each find how much water can be held on top. 
 None.
 
 # stubbing
-function waterWalls() {
+function waterWalls(array) {
   var water = [];
   var valleys = [];
   var output = [];
