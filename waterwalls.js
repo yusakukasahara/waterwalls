@@ -46,4 +46,6 @@ function waterWalls(array) {
   return [output[0] + 2, output[1] + 1, output[2]];
 }
 
-waterWalls([5, 3, 7, 2, 6, 4, 5, 9, 1, 2])
+// waterWalls([5, 3, 7, 2, 6, 4, 5, 9, 1, 2])
+
+module.exports = { waterWalls }

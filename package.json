@@ -1,0 +1,28 @@
+{
+  "name": "waterwalls",
+  "version": "1.0.0",
+  "description": "implementation of waterwalls on a node.js/express server and jest for testing.",
+  "main": "waterwalls.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jest": "^22.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusakukasahara/waterwalls.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusakukasahara/waterwalls/issues"
+  },
+  "homepage": "https://github.com/yusakukasahara/waterwalls#readme"
+}
