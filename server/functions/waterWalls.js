@@ -48,4 +48,4 @@ function waterWalls(array) {
 
 // waterWalls([5, 3, 7, 2, 6, 4, 5, 9, 1, 2])
 
-module.exports = { waterWalls }
+module.exports.waterWalls = waterWalls;
