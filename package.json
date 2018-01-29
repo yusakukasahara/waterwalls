@@ -2,7 +2,7 @@
   "name": "waterwalls",
   "version": "1.0.0",
   "description": "implementation of waterwalls on a node.js/express server and jest for testing.",
-  "main": "waterwalls.js",
+  "main": "./server/index.js",
   "directories": {
     "test": "tests"
   },
@@ -12,8 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node ./server/index.js"
   },
   "repository": {
     "type": "git",
